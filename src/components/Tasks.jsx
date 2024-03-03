@@ -9,7 +9,7 @@ function Tasks({ todos, toggleComplete, handleDelete }) {
       <div className="not-prose relative overflow-hidden rounded-xl ">
         <ul className="">
           {todos.length === 0 && (
-            <p className="flex items-center justify-center p-4 text-center">
+            <p className="flex items-center justify-center rounded-lg bg-slate-800 p-4 text-center shadow-lg">
               {shlok}
             </p>
           )}
