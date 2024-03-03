@@ -62,12 +62,12 @@ function App() {
     });
   };
   return (
-    <div className="py-10 px-8 sm:px-28 md:px-36 lg:px-40">
+    <div className="px-4 py-10 sm:px-28 md:px-36 lg:px-40">
       <div
-        className="flex flex-col mb-4 md:flex-row md:justify-between md:items-center
+        className="mb-4 flex flex-col md:flex-row md:items-center md:justify-between
       "
       >
-        <h1 className="text-3xl font-bold mb-5">Todo List</h1>
+        <h1 className="mb-5 text-3xl font-bold">Todo List</h1>
         <p>
           Date:{todayDate} <br />
           TIme:{time}
@@ -75,11 +75,11 @@ function App() {
       </div>
       <form
         onSubmit={handleAddTodo}
-        className="flex justify-between border rounded-lg border-blue-700 p-2 mb-4 "
+        className="mb-4 flex justify-between rounded-lg border border-blue-700 p-2 "
       >
         <input
-          className="border-0 outline-0
-           placeholder:bg-slate-900 placeholder:text-blue-700 w-4/5 focus:bg-slate-900 bg-slate-900"
+          className="w-4/5 border-0
+           bg-slate-900 outline-0 placeholder:bg-slate-900 placeholder:text-blue-700 focus:bg-slate-900"
           type="text"
           placeholder="Enter new todo"
           value={inputText}
@@ -88,7 +88,7 @@ function App() {
         />
         <button
           type="submit"
-          className="py-2 px-4 bg-blue-700 text-blue-50 hover:bg-blue-600 rounded-md"
+          className="rounded-md bg-blue-700 px-4 py-2 text-blue-50 hover:bg-blue-600"
         >
           <Plus />
         </button>

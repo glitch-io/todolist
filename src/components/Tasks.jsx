@@ -6,8 +6,8 @@ function Tasks({ todos, toggleComplete, handleDelete }) {
   return (
     <>
       <h2 className="my-2 text-2xl font-semibold">Your Task</h2>
-      <div className="not-prose relative overflow-hidden rounded-xl bg-slate-800/25 ">
-        <ul className="bg-grid-slate-700/25 inset-0 px-3">
+      <div className="not-prose relative overflow-hidden rounded-xl ">
+        <ul className="">
           {todos.length === 0 && (
             <p className="flex items-center justify-center p-4 text-center">
               {shlok}
