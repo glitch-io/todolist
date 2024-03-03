@@ -79,7 +79,7 @@ function App() {
       >
         <input
           className="w-4/5 border-0
-           bg-slate-900 outline-0 placeholder:bg-slate-900 placeholder:text-blue-700 focus:bg-slate-900"
+           outline-0 placeholder:bg-slate-900 placeholder:text-blue-700 focus:bg-slate-900 dark:bg-slate-900"
           type="text"
           placeholder="Enter new todo"
           value={inputText}
