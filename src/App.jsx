@@ -78,8 +78,10 @@ function App() {
         className="mb-4 flex justify-between rounded-lg border border-blue-700 p-2 "
       >
         <input
-          className="w-4/5 border-0
-           outline-0 placeholder:bg-slate-900 placeholder:text-blue-700 focus:bg-slate-900 dark:bg-slate-900"
+          className="dark:placeholder:bg-slate-900dark:placeholder:text-blue-700 w-4/5
+           border-0 
+           
+           outline-0 dark:bg-slate-900 dark:focus:bg-slate-900"
           type="text"
           placeholder="Enter new todo"
           value={inputText}
