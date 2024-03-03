@@ -6,7 +6,7 @@ function Tasks({ todos, toggleComplete, handleDelete }) {
   return (
     <>
       <h2 className="my-2 text-2xl font-semibold">Your Task</h2>
-      <div className="not-prose relative overflow-hidden rounded-xl ">
+      <div className="not-prose relative overflow-hidden dark:rounded-xl ">
         <ul className="">
           {todos.length === 0 && (
             <p className="rounded-lg border border-black p-4 text-center shadow-lg dark:bg-slate-800">
