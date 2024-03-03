@@ -3,7 +3,7 @@ function Task({ todo, toggleComplete, handleDelete }) {
     <li
       key={todo.id}
       className="g my-3 flex items-center justify-between gap-x-6 overflow-auto rounded-lg border border-black p-4 py-3
-      shadow-lg dark:bg-slate-800"
+      dark:bg-slate-800 dark:shadow-lg"
     >
       <div className="flex gap-2 text-black dark:text-cyan-50">
         <input
